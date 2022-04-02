@@ -1,12 +1,13 @@
 import './App.css';
-import Box from '@mui/material/Box';
-import Typography from '@mui/material/Typography';
-import NavigationDrawer from './components/layouts/navigationdrawer';
+
+import NavigationDrawer from './components/layouts/navs and drawer/navigationdrawer';
+import Dashboard from './components/pages/dashboard';
 
 function App() {
   return (
     <>
       <NavigationDrawer />
+      <Dashboard />
     </>
   );
 }
